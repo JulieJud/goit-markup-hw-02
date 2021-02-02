@@ -30,7 +30,10 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
 .adress .link:hover,
 .adress .link:focus {
   color: var(--accent-color);

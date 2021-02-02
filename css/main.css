@@ -28,6 +28,11 @@
   background-color: var(--accent-color);
 }
 
+.button.secondary {
+  color: var(--title-color);
+  background-color: rgba(245, 244, 250, 1);
+}
+
 /* цвет основной текста  #212121*/
 /* цвет вторичный текста #757575* 
 /* белый*color: #FFFFFF */
