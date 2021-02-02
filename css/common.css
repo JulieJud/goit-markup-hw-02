@@ -49,3 +49,7 @@ body {
 .adress-footer {
   color: var(--primary-bg-color);
 }
+
+.adress .link {
+  color: var(--primary-text-color);
+}
