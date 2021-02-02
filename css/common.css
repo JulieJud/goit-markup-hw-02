@@ -35,10 +35,17 @@ body {
 .adress .link:focus {
   color: var(--accent-color);
 }
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
 .site-nav .adress .link {
   color: var(--primary-text-color);
+}
+
+/*foother section */
+
+.adress-footer {
+  color: var(--primary-bg-color);
 }
