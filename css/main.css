@@ -1,42 +1,102 @@
 /*hero section */
+.hero {
+  background-color: #2f303a;
+}
 
 .hero-title {
   color: var(--primary-bg-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero-link {
   color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
 }
 
 /*main section */
 .section-title {
   color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .title {
   color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /*button */
 .button {
   color: var(--title-color);
   background-color: var(--primary-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .button.primary {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+  text-decoration: none;
 }
 
 .button.secondary {
   color: var(--title-color);
-  background-color: rgba(245, 244, 250, 1);
+  background-color: #f5f4fa;
 }
 
+.team {
+  background-color: #f5f4fa;
+}
+.members .title {
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.members .position {
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+}
+
+/*portfolio*/
+.item-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portofolio-link {
+  text-decoration: none;
+}
+
+.item {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+}
 /* цвет основной текста  #212121*/
 /* цвет вторичный текста #757575* 
 /* белый*color: #FFFFFF */
 /*rgba(236, 236, 236, 1)*/
 /*rgba(245, 244, 250, 1)*/
 /*rgba(47, 48, 58, 1)*/
-/* цвет акцент color: #2196F3*/
+/* цвет акцент color: #2196F3*/ ;

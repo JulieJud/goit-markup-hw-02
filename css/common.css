@@ -6,17 +6,51 @@
 }
 
 body {
-  background-color: rgba(236, 236, 236, 1);
+  background-color: #e5e5e5;
 
   color: var(--primary-text-color);
+
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
+.adress .link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
 .partlogo {
   color: var(--accent-color);
+  font-family: raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .partslogo {
   color: var(--title-color);
+  font-family: raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.fpartslogo {
+  color: var(--primary-bg-color);
+  font-family: raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .list {
@@ -27,6 +61,11 @@ body {
 
 .site-nav .link {
   color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -45,14 +84,31 @@ body {
 
 .site-nav .adress .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /*foother section */
-
+footer {
+  background-color: #2f303a;
+}
 .adress-footer {
   color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-.adress .link {
+.adressf .link {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
