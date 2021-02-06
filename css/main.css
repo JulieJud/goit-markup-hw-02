@@ -38,6 +38,7 @@
 }
 
 /*button */
+
 .button {
   color: var(--title-color);
   background-color: var(--primary-bg-color);
@@ -62,9 +63,9 @@
 .team {
   background-color: #f5f4fa;
 }
+
 .members .title {
   font-weight: 500;
-
   font-size: 16px;
   line-height: 1.18;
   text-align: center;

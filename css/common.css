@@ -91,9 +91,11 @@ body {
 }
 
 /*foother section */
+
 footer {
   background-color: #2f303a;
 }
+
 .adress-footer {
   color: var(--primary-bg-color);
   font-style: normal;
