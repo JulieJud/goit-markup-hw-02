@@ -1,10 +1,11 @@
 /*hero section */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-color);
 }
 
 .hero-title {
   color: var(--primary-bg-color);
+  text-transform: uppercase;
 
   font-weight: 900;
   font-size: 44px;
@@ -37,6 +38,10 @@
   line-height: 1.14;
 }
 
+.strong-side .title {
+  text-transform: uppercase;
+}
+
 /*button */
 
 .button {
@@ -57,11 +62,11 @@
 
 .button.secondary {
   color: var(--title-color);
-  background-color: #f5f4fa;
+  background-color: var(--bg-secondary-color);
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-secondary-color);
 }
 
 .members .title {
@@ -95,6 +100,7 @@
   line-height: 1.8;
   color: var(--primary-text-color);
 }
+
 /* цвет основной текста  #212121*/
 /* цвет вторичный текста #757575* 
 /* белый*color: #FFFFFF */

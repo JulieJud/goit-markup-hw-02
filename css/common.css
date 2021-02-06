@@ -3,11 +3,12 @@
   --title-color: #212121;
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
+  --hero-color: #2f303a;
+  --bg-secondary-color: #f5f4fa;
+  --adressf-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: #e5e5e5;
-
   color: var(--primary-text-color);
 
   font-family: roboto, sans-serif;
@@ -28,29 +29,22 @@ body {
 
 .logo {
   text-decoration: none;
-}
-.partlogo {
-  color: var(--accent-color);
   font-family: raleway, cursive;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+}
+
+.partlogo {
+  color: var(--accent-color);
 }
 
 .partslogo {
   color: var(--title-color);
-  font-family: raleway, cursive;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .fpartslogo {
   color: var(--primary-bg-color);
-  font-family: raleway, cursive;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .list {
@@ -93,10 +87,10 @@ body {
 /*foother section */
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--hero-color);
 }
 
-.adress-footer {
+.adressf .adress-footer {
   color: var(--primary-bg-color);
   font-style: normal;
   font-weight: 500;
@@ -106,7 +100,7 @@ footer {
 }
 
 .adressf .link {
-  color: var(--primary-text-color);
+  color: var(--adressf-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
