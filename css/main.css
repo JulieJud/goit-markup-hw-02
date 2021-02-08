@@ -46,7 +46,7 @@
 
 .button {
   color: var(--title-color);
-  background-color: var(--primary-bg-color);
+  background-color: var(--bg-secondary-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -54,8 +54,8 @@
   text-align: center;
 }
 
-.but.list :hover,
-.but.list :focus {
+.button :hover,
+.button :focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
@@ -64,11 +64,6 @@
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
   text-decoration: none;
-}
-
-.button.secondary {
-  color: var(--title-color);
-  background-color: var(--bg-secondary-color);
 }
 
 .team {
