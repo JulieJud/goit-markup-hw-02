@@ -54,8 +54,8 @@
   text-align: center;
 }
 
-.button :hover,
-.button :focus {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
